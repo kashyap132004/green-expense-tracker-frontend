@@ -25,5 +25,5 @@ This project is part of the **Green Expense Tracker** full-stack application.
 
 ---
 
-## 📂 Project Structure
+
 
