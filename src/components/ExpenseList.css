@@ -1,0 +1,33 @@
+.expense-list li {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px;
+  border-bottom: 1px solid #eee;
+  font-size: 14px;
+}
+
+.expense-list li:last-child {
+  border-bottom: none;
+}
+.expense-list {
+  list-style: none;
+  padding: 0;
+}
+
+.expense-list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 14px 16px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  background: #fafafa;
+  font-size: 14px;
+  transition: background 0.2s ease, transform 0.2s ease;
+}
+
+.expense-list li:hover {
+  background: #e8f5e9;
+  transform: scale(1.01);
+}
+
